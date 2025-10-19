@@ -14,7 +14,12 @@ RUN apt-get update && \
     python3 \
     python3-pip \
     # PDF関連ツール
-    poppler-utils && \
+    poppler-utils \
+    # 日本語フォント
+    fonts-noto-cjk \
+    # フォントキャッシュ管理
+    fontconfig && \
+    fc-cache -fv && \
     rm -rf /var/lib/apt/lists/* && \
     echo "✅ システムパッケージが正常にインストールされました"
 
