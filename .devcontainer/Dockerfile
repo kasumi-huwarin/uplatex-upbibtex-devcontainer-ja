@@ -19,7 +19,7 @@ RUN apt-get update && \
     fonts-noto-cjk \
     # フォントキャッシュ管理
     fontconfig && \
-    fc-cache -fv && \
+    fc-cache -f && \
     rm -rf /var/lib/apt/lists/* && \
     echo "✅ システムパッケージが正常にインストールされました"
 
