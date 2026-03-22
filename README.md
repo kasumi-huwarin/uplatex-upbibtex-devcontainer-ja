@@ -29,12 +29,12 @@
 
 ```bash
 # HTTPS
-git clone https://github.com/ochiaikouta/uplatex-upbibtex-devcontainer-ja.git
+git clone https://github.com/kasumi-huwarin/uplatex-upbibtex-devcontainer-ja.git
 cd uplatex-upbibtex-devcontainer-ja
 ```
 ```bash
 # SSH（推奨）
-git clone git@github.com:ochiaikouta/uplatex-upbibtex-devcontainer-ja.git
+git clone git@github.com:kasumi-huwarin/uplatex-upbibtex-devcontainer-ja.git
 cd uplatex-upbibtex-devcontainer-ja
 ```
 
